@@ -4,8 +4,8 @@ from datetime import datetime
 
 
 end_date = 1483217999 # Saturday, December 31, 2016 11:59:59 PM GMT+03:00 Date in Epoch Timestamp
-EvidencePath = "" # Path of folder with evidence files
-DestinationPath = "" # Path of Destination folder
+EvidencePath = r"" # Path of folder with evidence files
+DestinationPath = r"" # Path of Destination folder
 folder = [] # Temporary list of files
 
 def path_input(): # Function that takes input path
